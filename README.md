@@ -1,5 +1,7 @@
 # BRAIN-TO MRI Protocols
 
+![](misc/fig/MAGNETOM_Flash_Figure_2.png)
+
 Optimised MRI acquisition protocols for Siemens 3 T and 7 T systems running
 XA60.
 
@@ -223,8 +225,6 @@ configuration, coil, participant group, safety procedures, ethics approval,
 and study question. Local MR physics and technologist review remains essential.
 
 ## Relevant publications
-
-![](misc/fig/MAGNETOM_Flash_Figure_2.png)
 
 - Kashyap S, Uludağ K. *Advancing Clinical and Neuroscientific Research
   Through Accessible and Optimized Protocol Design at 3T.* Siemens MAGNETOM
