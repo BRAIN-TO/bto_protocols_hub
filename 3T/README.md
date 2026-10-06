@@ -1,20 +1,16 @@
 # XA60 — 3 T
 
-This catalogue is for BRAIN-TO protocols on Siemens XA60 systems at 3 T.
-Protocol packages are planned and will be linked to their immutable Zenodo
-records when published.
+This catalogue links BRAIN-TO protocol packages for Siemens XA60 systems at
+3 T. Full protocol files and detailed acquisition parameters are published on
+Zenodo; this repository does not duplicate them.
 
-## Protocol sets
+| Protocol set | Status | Download |
+|---|---|---|
+| Anatomy | Planned | Zenodo link pending |
+| fMRI | Planned | Zenodo link pending |
+| Diffusion | Planned | Zenodo link pending |
+| ASL | Planned | Zenodo link pending |
 
-- [Anatomy](anatomy/README.md)
-- [fMRI](fmri/README.md)
-- [Diffusion](diffusion/README.md)
-- [ASL](asl/README.md)
-
-## Supporting material
-
-- [Scripts](scripts/README.md)
-- [Containers](containers/README.md)
-
-Do not use 7 T material with this catalogue. No page here is scanner-ready
-until its compatibility and parameter review is complete.
+Field-specific helper scripts are listed in [`scripts/`](scripts/README.md).
+GHCR container links will be added here when images are published. Do not use
+7 T material with this catalogue.

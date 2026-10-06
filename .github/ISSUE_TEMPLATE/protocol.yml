@@ -1,0 +1,38 @@
+name: Protocol question or problem
+description: Ask about an XA60 protocol collection, its parameters, or Zenodo package.
+title: "[Protocol] "
+body:
+  - type: dropdown
+    id: field_strength
+    attributes:
+      label: Field strength
+      options:
+        - 3 T
+        - 7 T
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: protocol_set
+    attributes:
+      label: Protocol set
+      options:
+        - Anatomy
+        - fMRI
+        - Diffusion
+        - ASL
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: zenodo_record
+    attributes:
+      label: Zenodo record or DOI
+      description: Include this if you downloaded a package.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or problem
+      description: Include the parameter, protocol step, or package detail involved.
+    validations:
+      required: true

@@ -1,0 +1,36 @@
+name: Processing question or problem
+description: Ask about a field-specific script or a BRAIN-TO GHCR pipeline.
+title: "[Processing] "
+body:
+  - type: dropdown
+    id: field_strength
+    attributes:
+      label: Field strength
+      options:
+        - 3 T
+        - 7 T
+    validations:
+      required: true
+  - type: input
+    id: resource
+    attributes:
+      label: Script path or GHCR image
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Relevant versions
+      description: Include script, image, dependency, and operating-system versions where applicable.
+  - type: textarea
+    id: command
+    attributes:
+      label: Command or workflow step
+      render: shell
+  - type: textarea
+    id: problem
+    attributes:
+      label: Question or problem
+      description: Include the exact error output or unexpected result where possible.
+    validations:
+      required: true
