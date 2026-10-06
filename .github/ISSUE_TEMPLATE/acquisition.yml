@@ -1,0 +1,37 @@
+name: Acquisition problem
+description: Report a protocol import, scanner, image-quality, or scan-completion problem.
+title: "[Acquisition] "
+body:
+  - type: input
+    id: scanner
+    attributes:
+      label: Scanner model and XA60 version
+      placeholder: Siemens scanner model, XA60 version
+    validations:
+      required: true
+  - type: dropdown
+    id: field_strength
+    attributes:
+      label: Field strength
+      options:
+        - 3 T
+        - 7 T
+    validations:
+      required: true
+  - type: input
+    id: coil
+    attributes:
+      label: Head coil
+  - type: input
+    id: sequence
+    attributes:
+      label: Protocol set or sequence
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the exact scanner message or observed image issue where possible.
+    validations:
+      required: true
