@@ -1,4 +1,4 @@
-# BRAIN-TO MRI Protocols
+# BRAIN-TO MRI 3 T & 7 T Protocols
 
 ![](misc/fig/MAGNETOM_Flash_Figure_2.png)
 
