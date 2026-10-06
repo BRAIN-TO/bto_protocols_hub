@@ -224,6 +224,8 @@ and study question. Local MR physics and technologist review remains essential.
 
 ## Relevant publications
 
+![](misc/fig/MAGNETOM_Flash_Figure_2.png)
+
 - Kashyap S, Uludağ K. *Advancing Clinical and Neuroscientific Research
   Through Accessible and Optimized Protocol Design at 3T.* Siemens MAGNETOM
   Flash, RSNA Edition, 2023.
